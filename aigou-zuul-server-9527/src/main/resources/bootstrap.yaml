@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      uri: http://127.0.0.1:1299
+      label: master
+      name: application_zuul_server #GitHub仓库里的配置文件名称
+      profile: dev #开发环境

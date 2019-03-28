@@ -1,0 +1,19 @@
+##端口号
+#server:
+#  port: 8001
+#eureka:
+#  #服务注册
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:7001/eureka
+#spring:
+#  #服务名称
+#  application:
+#    name: PLAT-PROVIDER
+spring:
+  cloud:
+    config:
+      uri: http://127.0.0.1:1299
+      label: master
+      name: application_service_provider
+      profile: dev
